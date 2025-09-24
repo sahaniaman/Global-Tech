@@ -1,45 +1,13 @@
-<svg width="320" height="80" viewBox="0 0 320 80" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <style>
-      .logo-text { 
-        font-family: 'Helvetica Neue', 'Arial', sans-serif; 
-        text-rendering: optimizeLegibility;
-      }
-      .global-text { 
-        font-size: 32px; 
-        font-weight: 200; 
-        letter-spacing: 2px; 
-        fill: #000;
-      }
-      .tech-text { 
-        font-size: 32px; 
-        font-weight: 800; 
-        letter-spacing: 4px; 
-        fill: #000;
-      }
-    </style>
-  </defs>
+<svg width="80" height="80" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+ 
+  <circle cx="40" cy="40" r="20" fill="none" stroke="#000" stroke-width="2.5" stroke-linecap="round"/>
+  
+  
+  <line x1="40" y1="20" x2="40" y2="60" stroke="#000" stroke-width="1.8" stroke-linecap="round"/>
+  <line x1="20" y1="40" x2="60" y2="40" stroke="#000" stroke-width="1.8" stroke-linecap="round"/>
   
 
-  <circle cx="30" cy="40" r="20" fill="none" stroke="#000" stroke-width="2.5" stroke-linecap="round"/>
-  
-
-  <line x1="30" y1="20" x2="30" y2="60" stroke="#000" stroke-width="1.8" stroke-linecap="round"/>
-  <line x1="10" y1="40" x2="50" y2="40" stroke="#000" stroke-width="1.8" stroke-linecap="round"/>
-  
-  <!-- Elegant curved meridians -->
-  <path d="M 10 40 Q 30 26 50 40 Q 30 54 10 40" fill="none" stroke="#000" stroke-width="1.2" stroke-linecap="round"/>
-  <path d="M 18 28 Q 30 20 42 28" fill="none" stroke="#000" stroke-width="1" stroke-linecap="round"/>
-  <path d="M 18 52 Q 30 60 42 52" fill="none" stroke="#000" stroke-width="1" stroke-linecap="round"/>
-  
-
-  
-  <!-- Sophisticated separator -->
-  <line x1="70" y1="55" x2="130" y2="55" stroke="#000" stroke-width="1" stroke-linecap="round" opacity="0.6"/>
-  <line x1="185" y1="55" x2="260" y2="55" stroke="#000" stroke-width="2" stroke-linecap="round"/>
-  
-  <!-- Subtle accent elements -->
-  <circle cx="175" cy="48" r="1.5" fill="#000"/>
-  <circle cx="60" cy="25" r="1" fill="#000" opacity="0.4"/>
-  <circle cx="280" cy="35" r="1" fill="#000" opacity="0.4"/>
+  <path d="M 20 40 Q 40 26 60 40 Q 40 54 20 40" fill="none" stroke="#000" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M 28 28 Q 40 20 52 28" fill="none" stroke="#000" stroke-width="1" stroke-linecap="round"/>
+  <path d="M 28 52 Q 40 60 52 52" fill="none" stroke="#000" stroke-width="1" stroke-linecap="round"/>
 </svg>
